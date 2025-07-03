@@ -8,7 +8,7 @@ function Home() {
       <section className='home-title'>
         <div className='home-text'>
             <h1>Start Building Today</h1>
-            <Button as={NavLink} to="/shop" variant="outline-light">Shop Now</Button>
+            <Button as={NavLink} to="/shop" className="button-pink">Shop Now</Button>
         </div>
       </section>
     </div>

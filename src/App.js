@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 import Home from './Home';
 import Shop from './Shop';
 import WhatsNew from './WhatsNew';
-import Contact from './Contact';
+import OurTeam from './OurTeam';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* <Route path="/#" element={<Home />} /> */}
           <Route path="/shop" element={<Shop />} />
-          <Route path="/contact" element={<Contact />} /> 
+          <Route path="/ourteam" element={<OurTeam />} /> 
           <Route path="/whatsnew" element={<WhatsNew />} /> 
         </Routes> 
       </div>

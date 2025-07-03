@@ -5,12 +5,14 @@
 }
 
 .button-pink{
-  background-color: #C0007E;
-  color: white;
-  border: none;
-  padding: 10px 20px; 
+  background-color: #C0007E !important;
+  padding: 10px 20px;
   border-radius: 5px; 
-  cursor: pointer; 
+}
+
+.button-pink:hover {
+  background-color: #e20599 !important;
+  color: white !important;
 }
 
 .NavBar {
@@ -33,9 +35,11 @@
   color: var(--pink) !important; 
 }
 
+.NavBar .nav-link.active {
+  color: var(--pink) !important; 
+}
+
 .home-title{
-  text-align: center;
-  margin: 50px 0;
 }
 
 .home-text{

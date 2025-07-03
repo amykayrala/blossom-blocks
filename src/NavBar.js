@@ -10,13 +10,13 @@ function NavBar() {
     <>
       <Navbar className='NavBar'>
         <Container>
-          <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Blossom Blocks</Navbar.Brand>
-          <Nav className="ms-auto">
+          <Nav className="ms-left">
             <Nav.Link as={NavLink} to="/">Home</Nav.Link>
             <Nav.Link as={NavLink} to="/shop">Shop</Nav.Link>
-            <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
             <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
           </Nav>
+          <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Blossom Blocks</Navbar.Brand>
         </Container>
       </Navbar>
     </>
