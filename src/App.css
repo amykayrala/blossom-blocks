@@ -1,33 +1,46 @@
 :root {
-  --pink1: #C0007E;
+  --pink: #C0007E;
   --orange: #EE9800;
   --blue: #0057AD;
 }
 
 .button-pink{
-  background-color: #C0007E; /* Pink background */
-  color: white; /* White text */
-  border: none; /* No border */
-  padding: 10px 20px; /* Padding for the button */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #C0007E;
+  color: white;
+  border: none;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 
 .NavBar {
-  background-color: var(--purple1);
+  background-color: none !important;
+  position: sticky;
 }
 
 .NavBarBrand {
   font-family: 'Julius Sans One', 'Arial';
-  color: white !important;
+  color: black !important;
   font-weight: 600;
 }
 
 .NavBar .nav-link {
-  color: white !important;
+  color: black !important;
   font-weight: 500;
 }
 
 .NavBar .nav-link:hover {
-  color: #443348 !important; 
+  color: var(--pink) !important; 
+}
+
+.home-title{
+  text-align: center;
+  margin: 50px 0;
+}
+
+.home-text{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
 }

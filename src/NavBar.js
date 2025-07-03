@@ -5,8 +5,6 @@ import {Button} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 
-{/* make it sticky */}
-
 function NavBar() {
   return (
     <>
@@ -15,8 +13,8 @@ function NavBar() {
           <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Blossom Blocks</Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-            <Nav.Link as={HashLink} to="/shop">Shop</Nav.Link>
-            <Nav.Link as={HashLink} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={NavLink} to="/shop">Shop</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
             <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
           </Nav>
         </Container>

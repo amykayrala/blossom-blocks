@@ -2,12 +2,16 @@ import { Button, Card, CardGroup, Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import { NavLink } from 'react-router-dom';
 
-
 function Home() {
   return (
-    <Container>
-      <Button as={NavLink} to="/shop" variant="button-pink">Shop Now</Button>
-    </Container>
+    <div className='home-page'>
+      <section className='home-title'>
+        <div className='home-text'>
+            <h1>Start Building Today</h1>
+            <Button as={NavLink} to="/shop" variant="outline-light">Shop Now</Button>
+        </div>
+      </section>
+    </div>
   );
 }
 
