@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <Router basename="/photography-service-site">
+    <Router basename="/blossom-blocks">
       <div className='App'>
         <NavBar />
         <Routes>
