@@ -12,7 +12,7 @@ function NavBar() {
     <>
       <Navbar className='NavBar'>
         <Container>
-          <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Lumiere studio</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Blossom Blocks</Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/">Home</Nav.Link>
             <Nav.Link as={HashLink} to="/shop">Shop</Nav.Link>
