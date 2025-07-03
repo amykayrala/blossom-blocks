@@ -1,4 +1,4 @@
-import React from 'react';
+import './App.css';
 
 function WhatsNew() {
   return <div>What's New Page</div>;

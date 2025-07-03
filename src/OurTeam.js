@@ -1,7 +1,7 @@
-import React from 'react';
+import './App.css';
 
-function Contact() {
-  return <div>Contact</div>;
+function OurTeam() {
+  return <div>Our Team</div>;
 }
 
-export default Contact;
+export default OurTeam;

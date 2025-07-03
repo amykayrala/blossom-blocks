@@ -14,6 +14,7 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/">Home</Nav.Link>
             <Nav.Link as={NavLink} to="/shop">Shop</Nav.Link>
             <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
+            <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
             <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
           </Nav>
           <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Blossom Blocks</Navbar.Brand>

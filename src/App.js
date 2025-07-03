@@ -5,6 +5,7 @@ import Home from './Home';
 import Shop from './Shop';
 import WhatsNew from './WhatsNew';
 import OurTeam from './OurTeam';
+import Reviews from './Reviews';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           {/* <Route path="/#" element={<Home />} /> */}
           <Route path="/shop" element={<Shop />} />
           <Route path="/ourteam" element={<OurTeam />} /> 
+          <Route path="/reviews" element={<Reviews />} />
           <Route path="/whatsnew" element={<WhatsNew />} /> 
         </Routes> 
       </div>
