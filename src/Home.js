@@ -19,7 +19,7 @@ function Home() {
             <div className='home-text'>
               <h1 className='title'>Build. Create. Imagine.</h1>
               <p>Whether you're a kid or an adult, our building blocks are designed to unlock creativity, spark imagination, and bring people together. </p>
-              <Button as={NavLink} to="/shop" className="button-pink">Shop Now</Button>
+              <Button as={NavLink} to="/shop" className="lego-button">Shop Now</Button>
             </div>
           </Col>
           <Col lg="6">
@@ -36,7 +36,7 @@ function Home() {
       </section>
 
       <section className="favourites">
-        <h3 className='favourite-title'>Discover your new favourite set</h3>
+        <h2 className='favourite-title'><strong>Discover your new favourite set</strong></h2>
           <Container>
           <Row>
             <Col>
@@ -76,10 +76,23 @@ function Home() {
           </Container>
       </section>
       <section className="offers">
-        <Row>
+        <Row style={{width: "95%"}}>
           <Col className='offre-kid'>
+            <p style={{ marginBottom: '0rem' }}><strong>Kids</strong></p>
+            <h3 className="txt-blue"><strong>Big Smiles, Little Prices!</strong></h3>
+            <p style={{width: '50%'}}>Colorful, creative, and parent-approved, these sets are ready for playtime adventures at playful prices.</p>
+            <Button as={NavLink} to="/shop" className="lego-button">Shop Sale Now</Button>
+
           </Col>
           <Col className='offre-adult'>
+
+            <p style={{ marginBottom: '0rem' }}><strong>Adults</strong></p>
+            <h3 className="txt-blue" style={{outline: "3px white"}}><strong>Build More, Spend Less!</strong></h3>
+            <p style={{width: '50%'}}>Whether you're an architect-at-heart or just love a good hands-on project, now's the perfect time to treat yourself.</p>
+            <Button as={NavLink} to="/shop" className="lego-button">Shop Sale Now</Button>
+
+
+
           </Col>
         </Row>
 
