@@ -36,7 +36,7 @@ function Home() {
       </section>
 
 
-      <section className="favourites">
+      <section id="favourites" className="favourites">
         <h2 className='favourite-title'><strong>Discover your new favourite set</strong></h2>
           <Container>
           <Row>
@@ -44,7 +44,7 @@ function Home() {
               <CustomCard
                   image= {tropical}
                   title= "Tropical Bouquet"
-                  text="Enjoy this bla bla bla bla"
+                  text="Bring paradise home with this vibrant tropical bouquet — a colorful arrangement of exotic blooms that never wilt."
                   price="17.99$"
               />
             </Col>
@@ -52,7 +52,7 @@ function Home() {
               <CustomCard
                   image= {car}
                   title= "Fast Car"
-                  text="Enjoy this bla bla bla bla"
+                  text="Speed meets style in this sleek black and yellow Fast Car — built for thrill-seekers and display lovers alike."
                   price="14.99$"
               />
             </Col>
@@ -60,7 +60,7 @@ function Home() {
               <SaleCard
                   image= {trevi}
                   title= "Trevi Fountain"
-                  text="Enjoy this bla bla bla bla"
+                  text="Enjoy the beauty of Rome with this stunning Trevi Fountain set: a piece of history you can build and cherish."
                   price="74.99$"
                   sale="65.99$"
               />
@@ -69,7 +69,7 @@ function Home() {
               <CustomCard
                   image= {rainbow}
                   title= "Rainbow Population"
-                  text="Enjoy this bla bla bla bla"
+                  text= "Add a splash of color to your collection with this set: a joyful celebration of diversity and creativity."
                   price="12.99$"
               />
             </Col>
