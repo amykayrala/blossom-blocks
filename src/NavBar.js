@@ -15,22 +15,23 @@ function NavBar() {
 
   return (
     <>
-      <Navbar className='NavBar'>
-        <Container>
-          <Nav className="ms-left">
-            <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-
-            <NavDropdown title="Shop" id="shop-nav-dropdown">
-              <NavDropdown.Item as={NavLink} to="/shop?filter=age">By Age</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/shop?filter=theme">By Theme</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/shop?filter=price">By Price Range</NavDropdown.Item>
-            </NavDropdown>
-
-            <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
-            <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
-            <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
-          </Nav>
+      <Navbar fixed="top" className='NavBar'>
+        <Container fluid>
           <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Blossom Blocks</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-left">
+              <NavDropdown title="Shop" id="shop-nav-dropdown">
+                <NavDropdown.Item as={NavLink} to="/shop?filter=age">By Age</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/shop?filter=theme">By Theme</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/shop?filter=price">By Price Range</NavDropdown.Item>
+              </NavDropdown>
+
+              <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
+              <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
+              <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
