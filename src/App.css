@@ -126,6 +126,8 @@
 
 .txt-blue {
   color: var(--blue);
+  font-family: "Kantumruy Pro", sans-serif;
+
 }
 
 .txt-pink {
@@ -140,6 +142,7 @@
 .about-us-content, .about-creator-content {
   max-width: 600px;
   margin: auto;
+  font-family: "Kantumruy Pro", sans-serif;
 }
 
 .img-fluid {
@@ -154,9 +157,9 @@
 
 /* lego looking button */
 .lego-button {
-  background-color: var(--orange) !important;
+  background-color: var(--yellow) !important;
   color: #000;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--yellow);
   border-radius: 8px;
   padding: 1.5rem 2rem 2rem 2rem;
   position: relative;
