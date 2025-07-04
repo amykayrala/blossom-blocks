@@ -4,20 +4,20 @@ import reviewSideImg from './images/legoflower.png';
 import SubmitBtn from './SubmitBtn';
 
 function Reviews() {
-  const reviews = [
+    const reviews = [
     {
-      name: 'Sophie M.',
-      content: 'Absolutely loved the attention to detail. The photos captured every special moment!',
+        name: 'Milo R.',
+        content: 'My niece LOVED the themed Blossom Blocks set! Super creative and beautifully packaged.',
     },
     {
-      name: 'Liam C.',
-      content: 'Professional, kind, and super creative. Highly recommend Lumiere Studio!',
+        name: 'Tara N.',
+        content: 'Such a fun build. The colors are so bright and everything came exactly as pictured!',
     },
     {
-      name: 'Aisha B.',
-      content: 'The experience felt so natural and fun, and the final edits were stunning.',
+        name: 'Devon L.',
+        content: 'Great gift idea — fast shipping, adorable packaging, and lots of fun options.',
     },
-  ];
+    ];
 
   return (
     <div className="reviews-section py-5">
@@ -26,8 +26,8 @@ function Reviews() {
 
           {/* Reviews + Form */}
           <Col md={8}>
-            <h1 className="txt-blue mb-4 text-left"><strong>Customer Reviews</strong></h1>
-
+            <h1 className="txt-blue mb-4 text-left Poetsen-One"><strong>Customer Reviews</strong></h1>
+            <h4 className="txt-pink mb-4 text-left body">What builders are saying.</h4>
             {/* Review Cards */}
             <Row className="mb-4">
               {reviews.map((review, index) => (
@@ -44,13 +44,15 @@ function Reviews() {
 
             {/* Submission Form */}
             <div className="p-4 rounded">
-              <h2 className="txt-blue-smaller mb-3">Leave a Review</h2>
+              <h2 className="txt-blue-smaller mb-3 Poetsen-One">Leave a Review</h2>
+              <h5 className="txt-pink mb-3 body">We love hearing from our customers! Share your thoughts and help others discover the joy of Blossom Blocks.</h5>
               <Form>
                 <Form.Group className="mb-3" controlId="reviewTextarea">
                   <Form.Control
                     as="textarea"
                     rows={4}
-                    placeholder="Write your review here..."
+                    placeholder="Tell us about your experience here..."
+                    className="card"
                   />
                 </Form.Group>
                 <SubmitBtn />

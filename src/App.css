@@ -63,6 +63,10 @@
 
 }
 
+.Poetsen-One {
+  font-family: "Poetsen One", sans-serif;
+}
+
 .home-title{
   background-color: var(--green);
   background-position: center;
@@ -122,6 +126,10 @@
 
 .txt-blue {
   color: var(--blue);
+}
+
+.txt-pink {
+  color: var(--pink);
 }
 
 .txt-blue-smaller {
@@ -184,7 +192,7 @@
 
 .lego-footer {
   background-color: var(--green);
-  color: #000000;
+  color: white;
   border-top: 4px solid var(--pink);
   margin-top: 4rem;
 }
@@ -224,3 +232,12 @@ footer p {
   margin-top: 40px;
   background-color: #fdf6fa;
 }
+
+/* Reviews */
+.card {
+  background-color: #fffcf5;
+  border: 3px solid #fcd34d;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 #eab308;
+}
+
