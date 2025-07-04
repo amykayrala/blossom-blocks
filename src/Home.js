@@ -35,7 +35,7 @@ function Home() {
       </div>
       </section>
 
-      <section className="favourites">
+      <section id="favourites" className="favourites">
         <h3 className='favourite-title'>Discover your new favourite set</h3>
           <Container>
           <Row>

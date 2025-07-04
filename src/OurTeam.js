@@ -49,8 +49,10 @@ function OurTeam() {
           </Col>
           <Col md={6}>
             <div className="about-creator-content px-4">
-              <h1 className="txt-blue"><strong>About the Creator</strong></h1>
-              <p>This website was made by Amy and Raphaelle, two software engineering students from the University of Ottawa.</p>
+              <h1 className="txt-blue">About the Creators</h1>
+              <p> Blossom Blocks was built by Amy and Raphaelle, two software engineering students who never quite grew out of their love for building things.
+                We’ve always believed in the magic of imagination, creativity, and connection. </p>
+              <p>Whether you’re shopping for a unique gift, a screen-free activity, or just a little burst of color in your day, we’re so glad you’re here.</p>
             </div>
           </Col>
         </Row>
@@ -60,7 +62,7 @@ function OurTeam() {
       <Container className="contact-page py-2 text-center">
         <h1 className="txt-blue"><strong>Contact the Blossom Blocks team</strong></h1>
         <p>We're a few clicks away! Don't hesitate to get in touch for any inquiries.</p>
-        <Row className="py-4 text-start">
+        <Row className="py-4 text-star text-center">
           <Col md={4}>
             <h4 className="txt-blue-smaller"><FaMapMarkerAlt className="me-2" /> Address</h4>
             <p>Fifth Avenue, NYC, NY</p>
