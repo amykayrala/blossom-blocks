@@ -92,13 +92,13 @@
 }
 
 .favourites{
-  height: 100vh;
+  padding-bottom: 60px;
 }
 
 .favourite-title{
-  font-family: "Poetsen One", sans-serif;
+  font-family: "Kantumruy Pro", sans-serif;
   text-align: center;
-  padding: 60px 0 40px 0;
+  padding: 60px 0 30px 0;
   color: var(--blue);
 
 }
@@ -114,10 +114,48 @@
 }
 
 .offre-kid{
-
+  background-image: url("./media/kids.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  margin: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;        
+  justify-content: center;     
+  align-items: flex-start;      
+  padding: 1.75rem !important;               
+  text-align: left;
 }
 
 .offre-adult{
+  background-image: url("./media/adult.jpg");
+  backdrop-filter: grayscale(100%);
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  margin: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;        
+  justify-content: center;     
+  align-items: flex-end;    
+  padding: 1.75rem !important;                  
+  text-align: right;
+}
+
+.offers{
+  display: flex;
+  justify-content: center;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.offers h3{
+  text-shadow:
+    -0.3px -0.3px 0 white,
+    0.3px -0.3px 0 white,
+    -0.3px 0.3px 0 white,
+    0.3px 0.3px 0 white;
 }
 
 .bg-pink{
