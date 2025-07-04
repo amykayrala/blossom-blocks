@@ -59,7 +59,7 @@ function DeliveryPayment() {
                     <Form.Label>CVC</Form.Label>
                     <Form.Control type="text" placeholder="123" />
                   </Form.Group>
-                  <Button className="lego-button mt-3" type="submit">Proceed with Payment</Button>
+                  <Button className="lego-button mt-3">Proceed with Payment</Button>
                 </Form>
               </Card.Body>
             </Card>

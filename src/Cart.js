@@ -46,7 +46,7 @@ function Cart() {
                 <br />
                 Total Price: $32.98
               </Card.Text>
-              <Button className="button-pink" >Proceed to Checkout</Button>
+              <Button href="/blossom-blocks/deliverypayment" className="lego-button" >Proceed to Checkout</Button>
             </Card.Body>
           </Card>
         </Col>
