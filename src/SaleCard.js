@@ -1,7 +1,7 @@
 import { Button, Card, CardGroup, Container, Row, Col } from 'react-bootstrap';
 import salepic from './media/sale.png';
 
-function SaleCard({image, title, text, price, sale}) {
+function SaleCard({image, title, text, price, salePrice}) {
   return (
     <Card style={{ width: '18rem'}}>
 
@@ -25,7 +25,7 @@ function SaleCard({image, title, text, price, sale}) {
           </Col>
           <Col lg="4" style={{paddingLeft: '0'}}>
             <Card.Text style={{ color:'#e84c4d'}}>
-              {sale}
+              {salePrice}
             </Card.Text>
           </Col>
         </Row>
