@@ -13,7 +13,7 @@ function OurTeam() {
         <Row className="align-items-center">
           <Col md={6}>
             <div className="about-us-content px-4">
-              <h1 className="txt-blue">About Blossom Blocks</h1>
+              <h1 className="txt-blue"><strong>About Blossom Blocks</strong></h1>
               <p>
                 Blossom Blocks is a vibrant and innovative company dedicated to creating unique and engaging building blocks for children. 
                 Our mission is to inspire creativity and imagination through play, while also providing high-quality, safe, and sustainable products. 
@@ -49,7 +49,7 @@ function OurTeam() {
           </Col>
           <Col md={6}>
             <div className="about-creator-content px-4">
-              <h1 className="txt-blue">About the Creators</h1>
+              <h1 className="txt-blue"><strong>About the Creator</strong></h1>
               <p>This website was made by Amy and Raphaelle, two software engineering students from the University of Ottawa.</p>
             </div>
           </Col>
