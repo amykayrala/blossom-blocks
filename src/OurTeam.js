@@ -33,7 +33,7 @@ function OurTeam() {
       {/* Values Section */}
       <section className="middle py-4 bg-pink text-center text-white">
         <Container>
-          <Row className="g-4">
+          <Row className="g-4" style={{fontFamily: "Poetsen One, sans-serif"}}>
             <Col><h3 className="text-white">✨ Ambition</h3></Col>
             <Col><h3 className="text-white">🌟 Uniqueness</h3></Col>
             <Col><h3 className="text-white">🔍 Attention to Detail</h3></Col>

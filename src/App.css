@@ -164,7 +164,7 @@
 
 .txt-blue {
   color: var(--blue);
-  font-family: "Kantumruy Pro", sans-serif;
+  font-family: 'Poetsen One', 'Arial';
 
 }
 
@@ -196,7 +196,7 @@
 /* lego looking button */
 .lego-button {
   background-color: var(--yellow) !important;
-  color: #000;
+  color: var(--blue) !important;
   border: 2px solid var(--yellow);
   border-radius: 8px;
   padding: 1.5rem 2rem 2rem 2rem;
