@@ -15,6 +15,7 @@
 .button-pink{
   background-color: var(--pink) !important;
   padding: 10px 20px;
+  color: white !important;
   border-radius: 5px; 
   border: none !important;
 }
@@ -199,7 +200,6 @@
   color: var(--blue) !important;
   border: 2px solid var(--yellow);
   border-radius: 8px;
-  padding: 1.5rem 2rem 2rem 2rem;
   position: relative;
   box-shadow: inset -2px -2px 0 #f4e04d, 4px 4px 0 var(--blue);
   transition: all 0.15s ease;
@@ -272,6 +272,7 @@ footer p {
 .reviews-section{
   margin-top: 40px;
   background-color: #fdf6fa;
+  height: 100vh;
 }
 
 /* Reviews */
