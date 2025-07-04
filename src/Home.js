@@ -2,12 +2,12 @@ import { Button, Card, CardGroup, Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import { NavLink } from 'react-router-dom';
 import flower from './media/Wildflower.png';
-import tropical from './media/tropical.png'
-import car from './media/car.png'
-import trevi from './media/trevi.png'
-import rainbow from './media/rainbow.png'
+import tropical from './media/tropical.png';
+import car from './media/car.png';
+import trevi from './media/trevi.png';
+import rainbow from './media/rainbow.png';
 import CustomCard from './CustomCard';
-import SaleCard from './SaleCard'
+import SaleCard from './SaleCard';
 
 function Home() {
   return (
@@ -61,8 +61,8 @@ function Home() {
                   image= {trevi}
                   title= "Trevi Fountain"
                   text="Enjoy this bla bla bla bla"
-                  price="74.99$"
-                  sale="65.99$"
+                  price="68.99$"
+                  salePrice="55.99$"
               />
             </Col>
             <Col>
