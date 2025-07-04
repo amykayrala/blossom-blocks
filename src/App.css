@@ -2,6 +2,13 @@
   --pink: #C0007E;
   --orange: #EE9800;
   --blue: #0057AD;
+  --green: #54A065;
+}
+
+.crushed-regular {
+  font-family: "Crushed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .button-pink{
@@ -21,9 +28,9 @@
 }
 
 .NavBarBrand {
-  font-family: 'Julius Sans One', 'Arial';
-  color: black !important;
-  font-weight: 600;
+  font-family: "Crushed" , sans-serif !important;
+  color: var(--pink) !important;
+  font-weight: 500;
 }
 
 .NavBar .nav-link {
@@ -47,4 +54,109 @@
   font-size: 1.2rem;
   color: #333;
   margin-bottom: 20px;
+}
+
+.bg-pink{
+  background-color: var(--pink) !important;
+}
+
+.txt-blue {
+  color: var(--blue);
+}
+
+.txt-blue-smaller {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.about-us-content, .about-creator-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.map-container iframe {
+  border-radius: 12px;
+}
+
+/* lego looking button */
+.lego-button {
+  background-color: var(--orange) !important;
+  color: #000;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  padding: 1.5rem 2rem 2rem 2rem;
+  position: relative;
+  box-shadow: inset -2px -2px 0 #f4e04d, 4px 4px 0 var(--blue);
+  transition: all 0.15s ease;
+}
+
+.lego-button:hover {
+  transform: translateY(-2px);
+  box-shadow: inset -2px -2px 0 var(--blue), 6px 6px 0 var(--pink) !important;
+}
+
+.lego-button .studs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lego-button .stud {
+  width: 14px;
+  height: 14px;
+  background-color: var(--pink);
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  box-shadow: inset -1px -1px 0 var(--pink), 1px 1px 0 var(--blue);
+}
+
+/* FOOTER STYLES */
+
+.lego-footer {
+  background-color: #cde5d0;
+  color: #5b5b5b;
+  border-top: 4px solid var(--pink);
+  font-family: 'Fredoka', sans-serif;
+  margin-top: 4rem;
+}
+
+.lego-footer h5 {
+  font-weight: 700;
+  color: var(--pink);
+}
+
+.footer-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--blue);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons a {
+  margin: 0 8px;
+  font-size: 1.3rem;
+  color: var(--pink);
+}
+
+.footer-icons a:hover {
+  color: #d457a5;
+}
+
+footer p {
+  margin: 0;
 }
