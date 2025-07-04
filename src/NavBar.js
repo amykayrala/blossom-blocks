@@ -8,16 +8,18 @@ import {HashLink} from 'react-router-hash-link';
 function NavBar() {
   return (
     <>
-      <Navbar className='NavBar'>
-        <Container>
-          <Nav className="ms-left">
-            <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/shop">Shop</Nav.Link>
-            <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
-            <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
-            <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
-          </Nav>
+      <Navbar fixed="top" className='NavBar'>
+        <Container fluid>
           <Navbar.Brand as={NavLink} to="/" className="NavBarBrand">Blossom Blocks</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-left">
+              <Nav.Link as={NavLink} to="/shop">Shop</Nav.Link>
+              <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
+              <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
+              <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>

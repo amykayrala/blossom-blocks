@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
   --pink: #C0007E;
-  --orange: #EE9800;
+  --yellow: #ffbc47;
   --blue: #0057AD;
+  --green: #54A065;
 }
 
 .button-pink{
-  background-color: #C0007E !important;
+  background-color: var(--pink) !important;
   padding: 10px 20px;
   border-radius: 5px; 
+  border: none !important;
 }
 
 .button-pink:hover {
@@ -16,13 +21,14 @@
 }
 
 .NavBar {
-  background-color: none !important;
+  background-color: var(--green) !important;
   position: sticky;
+  font-family: "Kantumruy Pro", sans-serif;
 }
 
 .NavBarBrand {
-  font-family: 'Julius Sans One', 'Arial';
-  color: black !important;
+  font-family: 'Poetsen One', 'Arial';
+  color: var(--pink) !important;
   font-weight: 600;
 }
 
@@ -36,15 +42,73 @@
 }
 
 .NavBar .nav-link.active {
-  color: var(--pink) !important; 
-}
-
-.home-title{
+  color: var(--yellow) !important; 
 }
 
 .home-text{
+  font-family: "Kantumruy Pro", sans-serif;
+  text-align: left;
+  font-size: 1.2vw;
+  float: left;
+}
+
+.title{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: bold;
+  font-size: 3.7vw;
+
+}
+
+.home-title{
+  background-color: var(--green);
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  overflow: hidden;
+}
+
+.flowerpic {
+  height: 100vh;
+}
+
+.wave svg{
+  min-width: 100vh;
+  width: 100%;
+  bottom:0;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.favourites{
+  height: 100vh;
+}
+
+.favourite-title{
+  font-family: "Poetsen One", sans-serif;
   text-align: center;
-  font-size: 1.2rem;
-  color: #333;
-  margin-bottom: 20px;
+  padding: 60px 0 40px 0;
+  color: var(--blue);
+
+}
+
+.card-pic{
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.salepic{
+  width: 20%;
+}
+
+.offre-kid{
+
+}
+
+.offre-adult{
+  
 }
