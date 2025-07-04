@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Button, Dropdown} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 import { useState } from 'react';
@@ -26,10 +25,9 @@ function NavBar() {
                 <NavDropdown.Item as={NavLink} to="/shop?filter=theme">By Theme</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/shop?filter=price">By Price Range</NavDropdown.Item>
               </NavDropdown>
-
               <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
               <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
-              <Button as={NavLink} to="/whatsnew" variant="button-pink">What's New</Button>
+              <Nav.Link as={HashLink} to="/#favourites" variant="button-pink">What's New</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
