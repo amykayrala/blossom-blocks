@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blossom-blocks/static/css/main.87f0e958.css",
-    "main.js": "/blossom-blocks/static/js/main.1a9201d5.js",
+    "main.css": "/blossom-blocks/static/css/main.14870012.css",
+    "main.js": "/blossom-blocks/static/js/main.e6658d4f.js",
     "static/media/Wildflower.png": "/blossom-blocks/static/media/Wildflower.97c609badcefbb170f22.png",
     "static/media/legohome.png": "/blossom-blocks/static/media/legohome.f2ff348c2db3dabd50c9.png",
     "static/media/rainbow.png": "/blossom-blocks/static/media/rainbow.e35d3b68446a4755e924.png",
@@ -9,13 +9,15 @@
     "static/media/tropical.png": "/blossom-blocks/static/media/tropical.1db56fe20dc23d845f18.png",
     "static/media/legoflower.png": "/blossom-blocks/static/media/legoflower.8d7aa69d072f46255202.png",
     "static/media/car.png": "/blossom-blocks/static/media/car.59f4975e557c8181d54a.png",
+    "static/media/adult.jpg": "/blossom-blocks/static/media/adult.3b8ff213e901c48379a1.jpg",
+    "static/media/kids.jpg": "/blossom-blocks/static/media/kids.691fb743e2b4249edbb4.jpg",
     "static/media/sale.png": "/blossom-blocks/static/media/sale.3a315c72e68d4e0d9d24.png",
     "index.html": "/blossom-blocks/index.html",
-    "main.87f0e958.css.map": "/blossom-blocks/static/css/main.87f0e958.css.map",
-    "main.1a9201d5.js.map": "/blossom-blocks/static/js/main.1a9201d5.js.map"
+    "main.14870012.css.map": "/blossom-blocks/static/css/main.14870012.css.map",
+    "main.e6658d4f.js.map": "/blossom-blocks/static/js/main.e6658d4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.87f0e958.css",
-    "static/js/main.1a9201d5.js"
+    "static/css/main.14870012.css",
+    "static/js/main.e6658d4f.js"
   ]
 }
