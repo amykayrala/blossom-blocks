@@ -7,7 +7,7 @@ import ceosImg from './images/legohome.png';
 
 function OurTeam() {
   return (
-    <div className="our-team-page">
+    <div className="our-team-page" style={{marginTop: '40px'}}>
       {/* About Us Section */}
       <Container fluid className="aboutcompany py-5">
         <Row className="align-items-center">

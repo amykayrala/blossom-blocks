@@ -20,7 +20,7 @@ function Reviews() {
   ];
 
   return (
-    <div className="reviews-section py-5" style={{ backgroundColor: '#fdf6fa' }}>
+    <div className="reviews-section py-5">
       <Container>
         <Row className="align-items-start">
 

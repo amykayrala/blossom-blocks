@@ -8,6 +8,10 @@
   --green: #54A065;
 }
 
+.body{
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
 .button-pink{
   background-color: var(--pink) !important;
   padding: 10px 20px;
@@ -30,7 +34,7 @@
   font-family: 'Poetsen One', 'Arial';
   color: var(--pink) !important;
   font-weight: 500;
-
+}
 
 .NavBar .nav-link {
   color: black !important;
@@ -110,6 +114,7 @@
 }
 
 .offre-adult{
+}
 
 .bg-pink{
   background-color: var(--pink) !important;
@@ -178,10 +183,9 @@
 /* FOOTER STYLES */
 
 .lego-footer {
-  background-color: #cde5d0;
-  color: #5b5b5b;
+  background-color: var(--green);
+  color: #000000;
   border-top: 4px solid var(--pink);
-  font-family: 'Fredoka', sans-serif;
   margin-top: 4rem;
 }
 
@@ -214,3 +218,9 @@
 
 footer p {
   margin: 0;
+}
+
+.reviews-section{
+  margin-top: 40px;
+  background-color: #fdf6fa;
+}
