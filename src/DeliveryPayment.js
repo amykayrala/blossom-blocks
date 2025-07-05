@@ -80,6 +80,9 @@ function DeliveryPayment() {
                         <Button className="button-pink" onClick={handleClose}>
                             View Order Receipt
                         </Button>
+                        <Button className="button-pink" onClick={() => window.location.href = '/blossom-blocks/reviews'}>
+                            Submit a Review
+                        </Button>
                         <Button className="button-pink" onClick={() => window.location.href = '/blossom-blocks/shop'}>
                             Shop More
                         </Button>
