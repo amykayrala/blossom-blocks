@@ -79,8 +79,8 @@ import mustang from './media/classic-mustang.png';
       { 
         id: 7, 
         image: {kidFlower},
-        title: 'Laptop', 
-        text: "A fun and educational laptop set for kids, perfect for sparking creativity and learning.",
+        title: 'Mini Flower', 
+        text: "A delightful mini flower set designed for young builders.",
         theme: 'Electronics', 
         age: 5, 
         price: 7.99,
