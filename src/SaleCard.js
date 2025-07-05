@@ -3,7 +3,7 @@ import salepic from './media/sale.png';
 
 function SaleCard({image, title, text, price, salePrice}) {
   return (
-    <Card style={{ width: '18rem'}}>
+    <Card style={{ width: '18rem', margin: '12px'}}>
 
       <div className="card-pic" style={{display: 'flex', flexDirection: 'column'}}>
         <div style={{textAlign: 'left', float: 'left', padding:'10px'}}>

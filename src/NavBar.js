@@ -20,11 +20,7 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-left">
-              <NavDropdown title="Shop" id="shop-nav-dropdown">
-                <NavDropdown.Item as={NavLink} to="/shop?filter=age">By Age</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/shop?filter=theme">By Theme</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/shop?filter=price">By Price Range</NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link as={NavLink} to="/shop">Shop</Nav.Link>
               <Nav.Link as={NavLink} to="/ourteam">Our Team</Nav.Link>
               <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
               <Nav.Link as={HashLink} to="/#favourites" variant="button-pink">What's New</Nav.Link>

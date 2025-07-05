@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function CustomCard({image, title, text, price, sale}) {
+function CustomCard({image, title, text, price}) {
   return (
-    <Card style={{ width: '18rem'}}>
-      <div className="card-pic">
+    <Card style={{ width: '18rem', margin: '12px'}}>
+      <div style={{overflow: 'hidden', padding: '0.5rem'}} className="card-pic">
         <Card.Img variant="top" src={image}/>
 
       </div>
