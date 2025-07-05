@@ -6,7 +6,7 @@ import trevi from './media/trevi.png';
 import rainbow from './media/rainbow.png';
 import orchid from './media/orchid.png';
 import kidFlower from './media/kid-flower.jpg';
-import eiffel from './media/eiffel.jpeg';
+import eiffel from './media/eiffel.jpg';
 import tower from './media/tower.png';
 import lightning from './media/lightning.jpg';
 import lambo from './media/lambo.jpg';
