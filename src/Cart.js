@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 
 function Cart() {
   return (
-    <Container>
-      <h1 className="txt-blue mb-4 text-left Poetsen-One"><strong>Your Cart</strong></h1>
+    <Container style={{marginTop: '60px'}}>
+      <h1 className="txt-blue mb-4 text-left Poetsen-One" style={{paddingTop: '2rem'}} ><strong>Your Cart</strong></h1>
       <Row>
         <Col md={8}>
           {/* Cart items will be listed here */}

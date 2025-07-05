@@ -94,6 +94,7 @@
 
 .favourites{
   padding-bottom: 60px;
+  scroll-margin: 60px;
 }
 
 .favourite-title{
@@ -149,6 +150,7 @@
   display: flex;
   justify-content: center;
   font-family: "Kantumruy Pro", sans-serif;
+  padding-bottom: 60px;
 }
 
 .offers h3{
@@ -235,7 +237,6 @@
   background-color: var(--green);
   color: white;
   border-top: 4px solid var(--pink);
-  margin-top: 4rem;
 }
 
 .lego-footer h5 {
@@ -272,7 +273,8 @@ footer p {
 .reviews-section{
   margin-top: 40px;
   background-color: #fdf6fa;
-  height: 100vh;
+  padding-bottom: 60px;
+
 }
 
 /* Reviews */
@@ -285,7 +287,9 @@ footer p {
 
 .shop-page{
   margin-top: 60px;
-  font-family: "Kantumruy Pro", sans-serif;                     
+  font-family: "Kantumruy Pro", sans-serif;     
+  overflow: hidden;   
+  padding-bottom: 60px;             
 
 }
 
@@ -324,4 +328,8 @@ footer p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+}
+
+.our-team-page{
+  padding-bottom: 60px;
 }
