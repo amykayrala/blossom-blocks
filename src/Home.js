@@ -38,9 +38,9 @@ function Home() {
 
       <section id="favourites" className="favourites">
         <h2 className='favourite-title'><strong>Discover your new favourite set</strong></h2>
-          <Container>
+          <Container style={{margin: 'auto'}}  >
           <Row>
-            <Col>
+            <Col lg='3'>
               <CustomCard
                   image= {tropical}
                   title= "Tropical Bouquet"
@@ -48,7 +48,7 @@ function Home() {
                   price="17.99$"
               />
             </Col>
-            <Col>
+            <Col lg='3'>
               <CustomCard
                   image= {car}
                   title= "Fast Car"
@@ -56,7 +56,7 @@ function Home() {
                   price="14.99$"
               />
             </Col>
-            <Col>
+            <Col lg='3'>
               <SaleCard
                   image= {trevi}
                   title= "Trevi Fountain"
@@ -67,7 +67,7 @@ function Home() {
 
               />
             </Col>
-            <Col>
+            <Col lg='3'>
               <CustomCard
                   image= {rainbow}
                   title= "Rainbow Population"
@@ -79,7 +79,7 @@ function Home() {
           </Container>
       </section>
       <section className="offers">
-        <Row style={{width: "95%"}}>
+        <Row style={{width: "90%"}}>
           <Col className='offre-kid'>
             <p style={{ marginBottom: '0rem' }}><strong>Kids</strong></p>
             <h3 className="txt-blue"><strong>Big Smiles, Little Prices!</strong></h3>

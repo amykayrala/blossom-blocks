@@ -283,3 +283,45 @@ footer p {
   box-shadow: 3px 3px 0 #eab308;
 }
 
+.shop-page{
+  margin-top: 60px;
+  font-family: "Kantumruy Pro", sans-serif;                     
+
+}
+
+.shop-page h5{
+  font-family: "Poetsen One", sans-serif;
+  color: var(--yellow);
+
+}
+.checkbox {
+  padding-left: 1rem;
+}
+
+.banner{
+  background-image: url('./media/lego-banner.jpeg');
+  background-size: cover;
+  height: 30vh;
+  width: 90%;
+  color: white;
+  text-align: center;
+  justify-content: center; 
+  display: flex;
+  font-family: "Poetsen One", sans-serif;
+  color: var(--yellow);
+  text-shadow: 1px 1px 0 var(--blue);
+  margin: 1rem;
+}
+
+.banner-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
