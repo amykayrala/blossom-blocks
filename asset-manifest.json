@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/blossom-blocks/static/css/main.14870012.css",
-    "main.js": "/blossom-blocks/static/js/main.e6658d4f.js",
+    "main.css": "/blossom-blocks/static/css/main.64474dc1.css",
+    "main.js": "/blossom-blocks/static/js/main.839d0b01.js",
+    "static/media/legobuilding.png": "/blossom-blocks/static/media/legobuilding.ce94dcea2e1e228dfe51.png",
     "static/media/Wildflower.png": "/blossom-blocks/static/media/Wildflower.97c609badcefbb170f22.png",
     "static/media/legohome.png": "/blossom-blocks/static/media/legohome.f2ff348c2db3dabd50c9.png",
     "static/media/rainbow.png": "/blossom-blocks/static/media/rainbow.e35d3b68446a4755e924.png",
@@ -9,15 +10,26 @@
     "static/media/tropical.png": "/blossom-blocks/static/media/tropical.1db56fe20dc23d845f18.png",
     "static/media/legoflower.png": "/blossom-blocks/static/media/legoflower.8d7aa69d072f46255202.png",
     "static/media/car.png": "/blossom-blocks/static/media/car.59f4975e557c8181d54a.png",
+    "static/media/lightning.jpg": "/blossom-blocks/static/media/lightning.28a32bdc979050eec180.jpg",
+    "static/media/classic-mustang.png": "/blossom-blocks/static/media/classic-mustang.7182d9337982b35b3a5d.png",
+    "static/media/kid-flower.jpg": "/blossom-blocks/static/media/kid-flower.0e3ba0cf08b8c1e9fb7b.jpg",
+    "static/media/orchid.png": "/blossom-blocks/static/media/orchid.23427c68a6f504b3e0f3.png",
     "static/media/adult.jpg": "/blossom-blocks/static/media/adult.3b8ff213e901c48379a1.jpg",
+    "static/media/bootstrap-icons.woff?": "/blossom-blocks/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/blossom-blocks/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/eiffel.jpg": "/blossom-blocks/static/media/eiffel.2b0c83efb594052488a5.jpg",
     "static/media/kids.jpg": "/blossom-blocks/static/media/kids.691fb743e2b4249edbb4.jpg",
+    "static/media/tower.png": "/blossom-blocks/static/media/tower.a34250da02fd1a63a04e.png",
+    "static/media/lambo.jpg": "/blossom-blocks/static/media/lambo.33851f6328d3b52681b1.jpg",
+    "static/media/lego-banner.jpeg": "/blossom-blocks/static/media/lego-banner.d6fc0d549bca7033ebc0.jpeg",
     "static/media/sale.png": "/blossom-blocks/static/media/sale.3a315c72e68d4e0d9d24.png",
+    "static/media/legowall.png": "/blossom-blocks/static/media/legowall.9803aca966fbf75700b4.png",
     "index.html": "/blossom-blocks/index.html",
-    "main.14870012.css.map": "/blossom-blocks/static/css/main.14870012.css.map",
-    "main.e6658d4f.js.map": "/blossom-blocks/static/js/main.e6658d4f.js.map"
+    "main.64474dc1.css.map": "/blossom-blocks/static/css/main.64474dc1.css.map",
+    "main.839d0b01.js.map": "/blossom-blocks/static/js/main.839d0b01.js.map"
   },
   "entrypoints": [
-    "static/css/main.14870012.css",
-    "static/js/main.e6658d4f.js"
+    "static/css/main.64474dc1.css",
+    "static/js/main.839d0b01.js"
   ]
 }
