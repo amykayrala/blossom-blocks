@@ -28,7 +28,7 @@ import mustang from './media/classic-mustang.png';
         id: 2, 
         image: flower,
         title: 'Garden Bouquet', 
-        text: "bla bla bla",
+        text: "A beautiful garden bouquet that captures the essence of spring with its vibrant colors and delicate petals.",
         theme: 'flower', 
         age: 18, 
         price: 21.99,
