@@ -8,8 +8,14 @@ import trevi from './media/trevi.png';
 import rainbow from './media/rainbow.png';
 import CustomCard from './CustomCard';
 import SaleCard from './SaleCard';
+import Data from "./Data";
+import React, { useState } from 'react';
 
-function Home() {
+function Home( { cart, setCart }) {
+  const [item, setItem] = useState(Data);
+  const addToCart = (item) => {
+    setCart((prevCart) => [...prevCart, item]);
+  };
   return (
     <div className='home-page'>
       <section className='home-title' style={{position: 'relative'}}>
@@ -46,6 +52,8 @@ function Home() {
                   title= "Tropical Bouquet"
                   text="Bring paradise home with this vibrant tropical bouquet — a colorful arrangement of exotic blooms that never wilt."
                   price="17.99$"
+                  item={Data.find(item => item.id === 2)}
+                  addToCart={addToCart}
               />
             </Col>
             <Col lg='3'>
@@ -54,16 +62,19 @@ function Home() {
                   title= "Fast Car"
                   text="Speed meets style in this sleek black and yellow Fast Car — built for thrill-seekers and display lovers alike."
                   price="14.99$"
+                  item={Data.find(item => item.id === 3)}
+                  addToCart={addToCart}
               />
             </Col>
             <Col lg='3'>
               <SaleCard
                   image= {trevi}
                   title= "Trevi Fountain"
-
                   text="Enjoy the beauty of Rome with this stunning Trevi Fountain set: a piece of history you can build and cherish."
                   price="68.99$"
                   salePrice="55.99$"
+                  item={Data.find(item => item.id === 4)}
+                  addToCart={addToCart}
 
               />
             </Col>
@@ -73,6 +84,8 @@ function Home() {
                   title= "Rainbow Population"
                   text= "Add a splash of color to your collection with this set: a joyful celebration of diversity and creativity."
                   price="12.99$"
+                  item={Data.find(item => item.id === 5)}
+                  addToCart={addToCart}
               />
             </Col>
           </Row>
@@ -84,7 +97,7 @@ function Home() {
             <p style={{ marginBottom: '0rem' }}><strong>Kids</strong></p>
             <h3 className="txt-blue"><strong>Big Smiles, Little Prices!</strong></h3>
             <p style={{width: '50%'}}>Colorful, creative, and parent-approved, these sets are ready for playtime adventures at playful prices.</p>
-            <Button as={NavLink} to="/shop" className="lego-button">Shop Sale Now</Button>
+            <Button as={NavLink} to="/shop?sale=true" className="lego-button">Shop Sale Now</Button>
 
           </Col>
           <Col className='offre-adult'>
@@ -92,8 +105,7 @@ function Home() {
             <p style={{ marginBottom: '0rem' }}><strong>Adults</strong></p>
             <h3 className="txt-blue" style={{outline: "3px white"}}><strong>Build More, Spend Less!</strong></h3>
             <p style={{width: '50%'}}>Whether you're an architect-at-heart or just love a good hands-on project, now's the perfect time to treat yourself.</p>
-            <Button as={NavLink} to="/shop" className="lego-button">Shop Sale Now</Button>
-
+            <Button as={NavLink} to="/shop?sale=true" className="lego-button">Shop Sale Now</Button>
 
 
           </Col>

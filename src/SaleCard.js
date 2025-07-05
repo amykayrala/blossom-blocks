@@ -3,7 +3,7 @@ import salepic from './media/sale.png';
 import AddToCartBtn from './AddToCartBtn';
 import './App.css';
 
-function SaleCard({image, title, text, price, salePrice}) {
+function SaleCard({image, title, text, price, salePrice, item, addToCart}) {
   return (
     <Card style={{ width: '18rem', margin: '12px'}}>
 
@@ -31,7 +31,7 @@ function SaleCard({image, title, text, price, salePrice}) {
             </Card.Text>
           </Col>
         </Row>
-        <AddToCartBtn className="button-pink" variant="primary">Add to cart</AddToCartBtn>
+        <AddToCartBtn item={item} addToCart={addToCart} className="button-pink" variant="primary">Add to cart</AddToCartBtn>
       </Card.Body>
     </Card>
   );

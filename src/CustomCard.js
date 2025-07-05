@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import AddToCartBtn from './AddToCartBtn';
 import './App.css';
 
-function CustomCard({image, title, text, price}) {
+function CustomCard({image, title, text, price, item, addToCart}) {
   return (
     <Card style={{ width: '18rem', margin: '12px'}}>
       <div style={{overflow: 'hidden', padding: '0.5rem'}} className="card-pic">
@@ -17,7 +17,7 @@ function CustomCard({image, title, text, price}) {
         <Card.Text>
             {price}
         </Card.Text>
-        <AddToCartBtn className="button-pink" >Add to cart</AddToCartBtn>
+        <AddToCartBtn item={item} addToCart={addToCart} className="button-pink" >Add to cart</AddToCartBtn>
       </Card.Body>
     </Card>
   );

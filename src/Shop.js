@@ -1,13 +1,19 @@
 import './App.css';
 import { Button, Card, CardGroup, Container, Row, Col } from 'react-bootstrap';
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Form from 'react-bootstrap/Form';
 import Data from "./Data";
 import CustomCard from './CustomCard';
 import SaleCard from './SaleCard';
+import { useSearchParams } from 'react-router-dom';
 
-function Shop() {
+function Shop({ cart, setCart }) {
   const [item, setItem] = useState(Data);
+  const [searchParams] = useSearchParams();
+  const addToCart = (item) => {
+    setCart((prevCart) => [...prevCart, item]);
+  };
+
   const [filters, setFilters] = useState({
     age: [],
     theme: [],
@@ -53,6 +59,14 @@ function Shop() {
     
       return ageMatch && themeMatch && priceMatch && saleMatch;
     });
+
+    useEffect(() => {
+      const sale = searchParams.get("sale") === "true";
+      setFilters(prev => ({
+        ...prev,
+        onSale: sale
+      }));
+    }, [searchParams]);
 
   return (
 
@@ -153,6 +167,7 @@ function Shop() {
                   type={type}
                   id={`Price-Sale`}
                   label={`On Sale`}
+                  checked={filters.onSale}
                   onChange={() => handleCheckboxChange("onSale")}
                 />
               </div>
@@ -174,6 +189,8 @@ function Shop() {
                       text={Val.text}
                       price={`${Val.price.toFixed(2)}$`}
                       salePrice={`${Val.salePrice.toFixed(2)}$`}
+                      item={Val}
+                      addToCart={addToCart}
                     />
                   ) : (
                   <CustomCard
@@ -182,6 +199,8 @@ function Shop() {
                     title= {Val.title}
                     text={Val.text}
                     price={`${Val.price.toFixed(2)}$`}
+                    item={Val}
+                    addToCart={addToCart}
                   />
                   )
                   );

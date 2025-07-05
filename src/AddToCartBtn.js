@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 
-function AddToCartBtn() {
+function AddToCartBtn({item, addToCart}) {
   const [picked, setPicked] = useState(false);
 
   const handleClick = () => {
-    setPicked(!picked);
+    if (!picked) {
+      addToCart(item);         
+      setPicked(true);         
+    }
   };
 
   return (
