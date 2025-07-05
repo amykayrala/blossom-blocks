@@ -6,6 +6,8 @@ import legobuilding from './images/legobuilding.png';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import { Modal } from 'react-bootstrap';
+import { ProgressBar } from 'react-bootstrap';
+
 function DeliveryPayment() {
 
     {/* thank u msg */}
@@ -16,6 +18,8 @@ function DeliveryPayment() {
   return (
     <div className="delivery-section py-5" style={{ marginTop: '40px' }}>
       <Container>
+    <ProgressBar animated now={99} className="custom-progress" label={'2. Delivery & Payment Information'} style={{width: '100%'}} />
+    <br></br>
         <Row className="align-items-start">
 
           {/* Forms Section */}

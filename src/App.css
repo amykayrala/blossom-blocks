@@ -333,3 +333,8 @@ footer p {
 .our-team-page{
   padding-bottom: 60px;
 }
+
+.custom-progress .progress-bar {
+  background-color: var(--pink) !important;
+  font-weight: 600;
+}

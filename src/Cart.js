@@ -2,10 +2,12 @@ import { Button, Card, CardGroup, Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import tropical from './media/tropical.png'
 import { NavLink } from 'react-router-dom';
+import { ProgressBar } from 'react-bootstrap';
 
 function Cart() {
   return (
-    <Container style={{marginTop: '60px'}}>
+    <Container style={{marginTop: '60px', marginBottom: '60px'}}>
+     <ProgressBar animated now={50} className="custom-progress" label={'1. Cart'} style={{marginTop: '86px', width: '100%'}} />
       <h1 className="txt-blue mb-4 text-left Poetsen-One" style={{paddingTop: '2rem'}} ><strong>Your Cart</strong></h1>
       <Row>
         <Col md={8}>
