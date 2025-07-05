@@ -7,6 +7,8 @@ import Shop from './Shop';
 import WhatsNew from './WhatsNew';
 import OurTeam from './OurTeam';
 import Reviews from './Reviews';
+import Cart from './Cart';
+import DeliveryPayment from './DeliveryPayment';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/ourteam" element={<OurTeam />} /> 
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/whatsnew" element={<WhatsNew />} /> 
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/deliverypayment" element={<DeliveryPayment />} />
         </Routes> 
         <Footer />
       </div>

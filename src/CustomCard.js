@@ -1,5 +1,6 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import AddToCartBtn from './AddToCartBtn';
+import './App.css';
 
 function CustomCard({image, title, text, price}) {
   return (
@@ -16,7 +17,7 @@ function CustomCard({image, title, text, price}) {
         <Card.Text>
             {price}
         </Card.Text>
-        <Button className="button-pink" variant="primary">Add to cart</Button>
+        <AddToCartBtn className="button-pink" >Add to cart</AddToCartBtn>
       </Card.Body>
     </Card>
   );

@@ -5,12 +5,9 @@ import {NavLink} from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 import { useState } from 'react';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function NavBar() {
-
-  const [activeCanvas, setActiveCanvas] = useState(null);
-  const openCanvas = (name) => () => setActiveCanvas(name);
-  const closeCanvas = () => setActiveCanvas(null);
 
   return (
     <>
@@ -25,6 +22,13 @@ function NavBar() {
               <Nav.Link as={HashLink} to="/reviews">Reviews</Nav.Link>
               <Nav.Link as={HashLink} to="/#favourites" variant="button-pink">What's New</Nav.Link>
             </Nav>
+
+            <Nav className="ms-auto">
+              <Nav.Link as={NavLink} to="/cart">
+                <i className="bi bi-cart3" style={{ fontSize: '1.5rem' }}></i>
+              </Nav.Link>
+            </Nav>
+
           </Navbar.Collapse>
         </Container>
       </Navbar>

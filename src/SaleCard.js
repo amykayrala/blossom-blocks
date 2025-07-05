@@ -1,5 +1,7 @@
 import { Button, Card, CardGroup, Container, Row, Col } from 'react-bootstrap';
 import salepic from './media/sale.png';
+import AddToCartBtn from './AddToCartBtn';
+import './App.css';
 
 function SaleCard({image, title, text, price, salePrice}) {
   return (
@@ -29,7 +31,7 @@ function SaleCard({image, title, text, price, salePrice}) {
             </Card.Text>
           </Col>
         </Row>
-        <Button className="button-pink" variant="primary">Add to cart</Button>
+        <AddToCartBtn className="button-pink" variant="primary">Add to cart</AddToCartBtn>
       </Card.Body>
     </Card>
   );

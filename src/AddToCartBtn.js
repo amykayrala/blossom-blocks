@@ -10,9 +10,9 @@ function AddToCartBtn() {
 
   return (
     <Button
-      className={picked ? 'picked-btn' : 'view-portfolio-btn'}
+      className={picked ? 'button-pink' : 'button-pink'}
       onClick={handleClick}
-      variant={picked ? 'view-portfolio-btn' : 'outline-light'}
+      variant={picked ? 'button-pink' : 'button-pink'}
     >
       {picked ? 'Added!' : 'Add to Cart'}
     </Button>
