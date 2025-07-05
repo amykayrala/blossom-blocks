@@ -4,8 +4,15 @@ import SubmitBtn from './SubmitBtn';
 import legowall from './images/legowall.png';
 import legobuilding from './images/legobuilding.png';
 import { NavLink } from 'react-router-dom';
-
+import { useState } from 'react';
+import { Modal } from 'react-bootstrap';
 function DeliveryPayment() {
+
+    {/* thank u msg */}
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className="delivery-section py-5" style={{ marginTop: '40px' }}>
       <Container>
@@ -59,8 +66,27 @@ function DeliveryPayment() {
                     <Form.Label>CVC</Form.Label>
                     <Form.Control type="text" placeholder="123" />
                   </Form.Group>
-                  <Button className="lego-button mt-3">Proceed with Payment</Button>
-                </Form>
+                  </Form>
+                
+                <>
+                    <Button className="lego-button mt-3" onClick={handleShow}>Proceed with Payment</Button>
+                    
+                    <Modal show={show} onHide={handleClose}>
+                        <Modal.Header closeButton>
+                        <Modal.Title>Your building journey awaits!</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>Thank you for ordering from Blossom Blocks! A confirmation email has been sent to your inbox.</Modal.Body>
+                        <Modal.Footer>
+                        <Button className="button-pink" onClick={handleClose}>
+                            View Order Receipt
+                        </Button>
+                        <Button className="button-pink" onClick={() => window.location.href = '/blossom-blocks/shop'}>
+                            Shop More
+                        </Button>
+                        </Modal.Footer>
+                    </Modal>
+                  </>
+                
               </Card.Body>
             </Card>
           </Col>
@@ -77,7 +103,11 @@ function DeliveryPayment() {
 
         </Row>
       </Container>
+
+      
     </div>
+
+    
   );
 }
 

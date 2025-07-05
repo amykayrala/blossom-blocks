@@ -32,7 +32,7 @@ function Reviews() {
             <Row className="mb-4">
               {reviews.map((review, index) => (
                 <Col md={4} key={index}>
-                  <Card className="mb-3 h-100 border-1" style={{fontFamily: "Kantumruy Pro, sans-serif"}}>
+                  <Card className="mb-3 h-100 border-1 review-card" style={{fontFamily: "Kantumruy Pro, sans-serif"}}>
                     <Card.Body>
                       <Card.Title className="txt-blue-smaller">{review.name}</Card.Title>
                       <Card.Text>"{review.content}"</Card.Text>
