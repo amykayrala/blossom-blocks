@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blossom-blocks/static/css/main.e0f34dd3.css",
-    "main.js": "/blossom-blocks/static/js/main.f616ff43.js",
+    "main.js": "/blossom-blocks/static/js/main.fb1d227e.js",
     "static/media/legobuilding.png": "/blossom-blocks/static/media/legobuilding.ce94dcea2e1e228dfe51.png",
     "static/media/Wildflower.png": "/blossom-blocks/static/media/Wildflower.97c609badcefbb170f22.png",
     "static/media/legohome.png": "/blossom-blocks/static/media/legohome.f2ff348c2db3dabd50c9.png",
@@ -17,6 +17,7 @@
     "static/media/adult.jpg": "/blossom-blocks/static/media/adult.3b8ff213e901c48379a1.jpg",
     "static/media/bootstrap-icons.woff?": "/blossom-blocks/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/blossom-blocks/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/legoflower2.png": "/blossom-blocks/static/media/legoflower2.26a0c55113a4813433c1.png",
     "static/media/eiffel.jpg": "/blossom-blocks/static/media/eiffel.2b0c83efb594052488a5.jpg",
     "static/media/kids.jpg": "/blossom-blocks/static/media/kids.691fb743e2b4249edbb4.jpg",
     "static/media/tower.png": "/blossom-blocks/static/media/tower.a34250da02fd1a63a04e.png",
@@ -26,10 +27,10 @@
     "static/media/legowall.png": "/blossom-blocks/static/media/legowall.9803aca966fbf75700b4.png",
     "index.html": "/blossom-blocks/index.html",
     "main.e0f34dd3.css.map": "/blossom-blocks/static/css/main.e0f34dd3.css.map",
-    "main.f616ff43.js.map": "/blossom-blocks/static/js/main.f616ff43.js.map"
+    "main.fb1d227e.js.map": "/blossom-blocks/static/js/main.fb1d227e.js.map"
   },
   "entrypoints": [
     "static/css/main.e0f34dd3.css",
-    "static/js/main.f616ff43.js"
+    "static/js/main.fb1d227e.js"
   ]
 }
