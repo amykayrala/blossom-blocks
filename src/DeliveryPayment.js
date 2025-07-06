@@ -87,7 +87,7 @@ function DeliveryPayment() {
                         <Button className="button-pink" onClick={() => window.location.href = '/blossom-blocks/reviews'}>
                             Submit a Review
                         </Button>
-                        <Button className="button-pink" onClick={() => window.location.href = '/blossom-blocks/shop'}>
+                        <Button className="lego-button" onClick={() => window.location.href = '/blossom-blocks/shop'}>
                             Shop More
                         </Button>
                         </Modal.Footer>
