@@ -74,7 +74,7 @@ function Cart({ cart, setCart }) {
                 <br />
                 Total Price: {totalPrice.toFixed(2)}$
               </Card.Text>
-              <Button href="/blossom-blocks/deliverypayment" className="lego-button" >Proceed to Checkout</Button>
+              <Button as={NavLink} to="/deliverypayment" className="lego-button" >Proceed to Checkout</Button>
             </Card.Body>
           </Card>
         </Col>
