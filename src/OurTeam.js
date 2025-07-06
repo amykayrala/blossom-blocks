@@ -4,6 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import Image from 'react-bootstrap/Image';
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaClock } from 'react-icons/fa';
 import ceosImg from './images/legohome.png'; 
+import legoflower2 from './images/legoflower2.png'; 
 
 function OurTeam() {
   return (
@@ -45,7 +46,7 @@ function OurTeam() {
       <Container fluid className="aboutcreators py-5 bg-white">
         <Row className="align-items-center">
           <Col md={6}>
-            <Image src={ceosImg} className="img-fluid rounded" />
+            <Image src={legoflower2} className="img-fluid rounded" />
           </Col>
           <Col md={6}>
             <div className="about-creator-content px-4">
@@ -60,7 +61,7 @@ function OurTeam() {
 
       {/* Contact Section */}
       <Container className="contact-page py-2 text-center">
-        <h1 className="txt-blue"><strong>Contact the Blossom Blocks team</strong></h1>
+        <h1 className="txt-pink Poetsen-One"><strong>Contact the Blossom Blocks team</strong></h1>
         <p>We're a few clicks away! Don't hesitate to get in touch for any inquiries.</p>
         <Row className="py-4 text-star text-center">
           <Col md={4}>
