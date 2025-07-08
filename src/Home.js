@@ -46,7 +46,7 @@ function Home( { cart, setCart }) {
         <h2 className='favourite-title'><strong>Discover your new favourite set</strong></h2>
           <Container style={{margin: 'auto'}}  >
           <Row>
-            <Col lg='3'>
+            <Col style= {{padding : '0'}}>
               <CustomCard
                   image= {tropical}
                   title= "Tropical Bouquet"
@@ -56,7 +56,7 @@ function Home( { cart, setCart }) {
                   addToCart={addToCart}
               />
             </Col>
-            <Col lg='3'>
+            <Col style= {{padding : '0'}}>
               <CustomCard
                   image= {car}
                   title= "Fast Car"
@@ -66,7 +66,7 @@ function Home( { cart, setCart }) {
                   addToCart={addToCart}
               />
             </Col>
-            <Col lg='3'>
+            <Col style= {{padding : '0'}}>
               <SaleCard
                   image= {trevi}
                   title= "Trevi Fountain"
@@ -78,7 +78,7 @@ function Home( { cart, setCart }) {
 
               />
             </Col>
-            <Col lg='3'>
+            <Col style= {{padding : '0'}}>
               <CustomCard
                   image= {rainbow}
                   title= "Rainbow Population"
